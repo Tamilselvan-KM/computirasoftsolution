@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - ComputiraSoftSolutions</title>
+    <link rel="stylesheet" href="css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style></style>
+  </head>
+
+  <body>
+    <div id="preloader">
+      <div class="circleLoader">
+        <div class="loader">
+          <div class="loader">
+            <div class="loader">
+              <div class="loader"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="circle">
+        <div id="slideImg"></div>
+      </div>
+      <div class="overlay"></div>
+      <div class="header">
+        <a href="index.html">
+          <h2 class="mainLogo">ComputiraSoftSolutions</h2>
+        </a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Company</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Reach Us</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="textBox">
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="contactbox">
+        <div class="row">
+          <div class="col-1">
+            <h2 class="title">Send Us A Message</h2>
+            <div class="info">
+              <div>
+                <h3>Address</h3>
+                <p>
+                No:25/1, Old Ration Shop Street,Edamalaipattipudur,<br> Trichy-620012.
+                </p>
+              </div>
+              <div>
+                <h3>Contact Us</h3>
+                <p>+91 88385 87063</p>
+              </div>
+              <div>
+                <h3>Mail Us</h3>
+                <p>computira.team@gmail.com</p>
+              </div>
+              <div>
+                <button id="myBtn">Open Form</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <h2 class="map-title">Our Location</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125406.03748906677!2d78.6189867358286!3d10.816005379096653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf50ff2aecdad%3A0x6de02c3bedbbaea6!2sTiruchirappalli%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1638860016762!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              class="map"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Send Us A Message</h2>
+        </div>
+        <div class="modal-body">
+          <div class="form-popup" id="myForm">
+            <form action="action.php" class="form-container" method="post">
+              <label for="email"><b>TELL US YOUR NAME *</b></label>
+              <input
+                type="text"
+                placeholder="Enter Your Name"
+                name="username"
+                required
+              />
+
+              <label for="email"><b>ENTER YOUR EMAIL *</b></label>
+              <input
+                type="text"
+                placeholder="Enter Email"
+                name="useremail"
+                required
+              />
+
+              <label for="email"><b>ENTER PHONE NUMBER</b></label>
+              <input type="text" placeholder="Enter Phone Number" name="usermobile" />
+
+              <label for="email"><b>MESSAGE *</b></label>
+              <textarea name="usermessage" id="" rows="5"></textarea>
+              <button type="submit" class="btn" name="send">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Andriod and ios mobile phone.</p>
+          <div class="app-logo">
+            <img src="images/play-store.png" />
+            <img src="images/app-store.png" />
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <h3>ComputiraSoft Solution</h3>
+          <p>
+            Our Purpose Is To Sustainably Make Pleasure And Benefits of
+            Accessiable To Many.
+          </p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Contact Info & Studio</h3>
+          <ul>
+            <li>
+              <i class="fas fa-phone-alt"></i
+              ><a href="tel:++91 8838 5870 63">+91 8838 5870 63</a>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i
+              ><a href="mailto:computira.team@gmail.com"
+                >computira.team@gmail.com</a
+              >
+            </li>
+            <li>
+              <i class="fas fa-home"></i><a href="">TRICHY - Our Studio</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow Us On</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/computira.computira.9"
+                target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a href="https://twitter.com/Computira1?s=08" target="_blank"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a href="https://www.instagram.com/computiratech/" target="_blank"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+        <hr />
+      </div>
+      <p class="copyright">&copy; All CopyRight Reversed</p>
+    </div>
+
+    <script>
+      let preloader = document.getElementById("preloader");
+      window.addEventListener("load", () => {
+        preloader.style.display = "none";
+      });
+      let stickyHeader = document.querySelector(".header");
+      window.addEventListener("scroll", () => {
+        stickyHeader.classList.toggle("sticky", window.scrollY > 0);
+      });
+      function toggleMenu() {
+        const toggleMenu = document.querySelector(".toggle");
+        const navLinks = document.querySelector(".nav-links");
+        toggleMenu.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      }
+
+      var modal = document.getElementById("myModal");
+
+      var btn = document.getElementById("myBtn");
+
+      var span = document.getElementsByClassName("close")[0];
+
+      btn.onclick = function () {
+        modal.style.display = "block";
+      };
+
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
